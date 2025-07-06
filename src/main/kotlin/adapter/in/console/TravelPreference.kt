@@ -1,4 +1,4 @@
-package adapter.input.console
+package adapter.`in`.console
 
 data class TravelPreference(
     val startDate: String,

@@ -1,4 +1,4 @@
-package domain.travelrecommendation.model
+package domain.model
 
 data class TravelPlan(
     val reason: String,
