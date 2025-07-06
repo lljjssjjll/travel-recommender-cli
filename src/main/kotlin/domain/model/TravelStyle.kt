@@ -1,4 +1,4 @@
-package domain.travelrecommendation.model
+package domain.model
 
 enum class TravelStyle(val description: String) {
     SIGHTSEEING("관광"),
