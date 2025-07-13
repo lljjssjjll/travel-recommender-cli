@@ -15,8 +15,12 @@ repositories {
     mavenCentral()
 }
 
+val gsonVersion = "2.13.1"
+
 dependencies {
     testImplementation(kotlin("test"))
+
+    implementation("com.google.code.gson:gson:${gsonVersion}")
 }
 
 tasks.test {
