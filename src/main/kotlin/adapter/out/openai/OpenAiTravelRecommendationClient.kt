@@ -7,7 +7,7 @@ import com.theokanning.openai.service.OpenAiService
 
 class OpenAiTravelRecommendationClient : TravelRecommendationClient {
 
-    private val apiKey = requireNotNull(System.getenv("OPENAI_API_KEY")) { "환경변수 OPENAI_API_KEY가 설정되지 않았습니다." }
+    private val apiKey = requireNotNull(System.getenv("OPENAI_API_KEY")) { "OPENAI_API_KEY가 필요합니다." }
     private val model = "gpt-3.5-turbo"
     private val service = OpenAiService(apiKey)
 
