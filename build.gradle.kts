@@ -16,14 +16,14 @@ repositories {
 }
 
 val gsonVersion = "2.13.1"
-val generativeAiVersion = "0.1.0"
+val googleGenAiVersion = "1.8.0"
 val openAiVersion = "0.18.2"
 
 dependencies {
     testImplementation(kotlin("test"))
 
     implementation("com.google.code.gson:gson:${gsonVersion}")
-    implementation("com.google.ai.client:generativeai:${generativeAiVersion}")
+    implementation("com.google.genai:google-genai:${googleGenAiVersion}")
     implementation("com.theokanning.openai-gpt3-java:service:${openAiVersion}")
 }
 

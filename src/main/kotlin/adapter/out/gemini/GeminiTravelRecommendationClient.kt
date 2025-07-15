@@ -1,9 +1,9 @@
 package adapter.out.gemini
 
 import application.port.out.TravelRecommendationClient
-import com.google.ai.client.generativeai.GenerativeModel
-import com.google.ai.client.generativeai.type.content
-import com.google.ai.client.generativeai.type.text
+import com.google.genai.GenerativeModel
+import com.google.genai.type.content
+import com.google.genai.type.text
 
 class GeminiTravelRecommendationClient : TravelRecommendationClient {
 
